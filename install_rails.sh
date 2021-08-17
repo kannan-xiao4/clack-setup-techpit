@@ -1,3 +1,6 @@
+#!/bin/sh
+set -e
+
 echo "install rbenv/ruby-dev"
 sudo apt install rbenv ruby-dev -y
 
