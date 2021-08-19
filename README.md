@@ -27,7 +27,7 @@ rails (6.0.3.4)
 
 rails アプリケーションの作成
 ```
-cd ~/enviroment
+cd ~/environment
 rails _6.0.3.4_ new techpitgram
 ```
 
