@@ -1,13 +1,6 @@
 #!/bin/sh
 set -e
 
-echo "install ruby 2.7.2"
-rbenv local 2.7.2
-ruby -v
-
-echo "reset gem path"
-unset GEM_HOME GEM_PATH
-
 echo "install bundler"
 gem install bundler
 

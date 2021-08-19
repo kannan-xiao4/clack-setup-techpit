@@ -6,6 +6,9 @@
 sh setup.sh
 sh install_rbenv.sh
 source ~/.bash_profile
+rbenv local 2.7.2
+ruby -v
+unset GEM_HOME GEM_PATH
 sh install_rails.sh
 ```
 
