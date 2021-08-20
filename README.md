@@ -6,9 +6,8 @@
 sh setup.sh
 sh install_rbenv.sh
 source ~/.bash_profile
-rbenv local 2.7.2
+rbenv global 2.7.2
 ruby -v
-unset GEM_HOME GEM_PATH
 gem install bundler
 gem install rails -v 6.0.3.4
 rails -v
