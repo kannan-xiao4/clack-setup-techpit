@@ -18,7 +18,7 @@ rails -v
 ```
 
 ## Check install rails
-コマンと
+コマンド
 ```
 gem search ^rails$ -l
 ```
@@ -44,4 +44,9 @@ cd techpitgram
 rails s
 ```
 
-ブラウザでrailsのスタートアップページの表示を確認
+## Allow development access
+
+初回の起動時は、Railsのセキュリティ設定によりエラー画面になる。
+エラー下部黒字の「config.hosts << "○○.com"」をコピーして、 `techpitgram/config/environments/development.rb` の `Rails.application.configure do ~ end` の間に貼り付け。
+
+Railsを再起動して、ブラウザでrailsのスタートアップページの表示を確認
