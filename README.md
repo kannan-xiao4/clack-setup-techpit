@@ -1,6 +1,10 @@
 # clack-setup-techpit
 
-## セットアップ
+## Environment
+AWS Cloud9
+Platform: Ubuntu Server 18.04 LTS
+
+## Setup
 コマンドライン上で下記を実行。
 ```
 sh setup.sh
@@ -13,21 +17,20 @@ gem install rails -v 6.0.3.4
 rails -v
 ```
 
-## railsのインストールを確認
+## Check install rails
+コマンと
 ```
 gem search ^rails$ -l
 ```
 
-expect
+実行結果
 ```
-gem search ^rails$ -l
-
 *** LOCAL GEMS ***
 
 rails (6.0.3.4)
 ```
 
-## (備考) rails app 作成
+## (optional)) Create rails app
 
 rails アプリケーションの作成
 ```
