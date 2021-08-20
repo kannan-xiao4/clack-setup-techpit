@@ -9,7 +9,9 @@ source ~/.bash_profile
 rbenv local 2.7.2
 ruby -v
 unset GEM_HOME GEM_PATH
-sh install_rails.sh
+gem install bundler
+gem install rails -v 6.0.3.4
+rails -v
 ```
 
 ## railsのインストールを確認
