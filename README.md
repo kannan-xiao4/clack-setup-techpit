@@ -30,7 +30,7 @@ gem search ^rails$ -l
 rails (6.0.3.4)
 ```
 
-## (optional)) Create rails app
+## (optional) Create rails app
 
 rails アプリケーションの作成
 ```
