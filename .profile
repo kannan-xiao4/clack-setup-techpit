@@ -26,8 +26,6 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 source $HOME/.nvm/nvm.sh
-export HOMEBREW_NO_ENV_FILTERING=1
-eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 #export PATH="$PATH:$HOME/.rvm/bin"
