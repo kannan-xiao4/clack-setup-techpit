@@ -10,7 +10,7 @@ Platform: Ubuntu Server 18.04 LTS
 sh setup.sh
 sh install_rbenv.sh
 source ~/.bash_profile
-rbenv global 2.7.2
+rbenv local 2.7.2
 ruby -v
 gem install bundler
 gem install rails -v 6.0.3.4
