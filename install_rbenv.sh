@@ -11,5 +11,4 @@ rbenv install 2.7.2
 
 echo "setting path about ruby"
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
-echo 'unset GEM_HOME GEM_PATH' >> ~/.bash_profile
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
